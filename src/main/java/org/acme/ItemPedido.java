@@ -4,6 +4,10 @@ public class ItemPedido {
 
     private double subtotal;
 
+    public ItemPedido() {
+
+    }
+
     public ItemPedido(double subtotal) {
 
         this.subtotal = subtotal;
